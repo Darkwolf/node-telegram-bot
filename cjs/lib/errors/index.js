@@ -1,0 +1,46 @@
+const Error = require('./Error')
+const UnauthorizedError = require('./UnauthorizedError')
+const BadRequestError = require('./BadRequestError')
+const ForbiddenError = require('./ForbiddenError')
+const NotFoundError = require('./NotFoundError')
+const TooManyRequestsError = require('./TooManyRequestsError')
+const InvalidBotTokenError = require('./InvalidBotTokenError')
+const BotBlockedByUserError = require('./BotBlockedByUserError')
+const ChatMigratedError = require('./ChatMigratedError')
+const InlineModeDisabledError = require('./InlineModeDisabledError')
+const UserNotFoundError = require('./UserNotFoundError')
+const ChatNotFoundError = require('./ChatNotFoundError')
+const MessageNotFoundError = require('./MessageNotFoundError')
+const ReplyMessageNotFoundError = require('./ReplyMessageNotFoundError')
+const FileNotFoundError = require('./FileNotFoundError')
+const StickerSetNotFoundError = require('./StickerSetNotFoundError')
+const InvalidCallbackQueryError = require('./InvalidCallbackQueryError')
+const InvalidInlineQueryError = require('./InvalidInlineQueryError')
+const InvalidShippingQueryError = require('./InvalidShippingQueryError')
+const InvalidPreCheckoutQueryError = require('./InvalidPreCheckoutQueryError')
+const UnknownError = require('./UnknownError')
+
+class Errors {}
+Errors.Error = Error
+Errors.UnauthorizedError = UnauthorizedError
+Errors.BadRequestError = BadRequestError
+Errors.ForbiddenError = ForbiddenError
+Errors.NotFoundError = NotFoundError
+Errors.TooManyRequestsError = TooManyRequestsError
+Errors.InvalidBotTokenError = InvalidBotTokenError
+Errors.BotBlockedByUserError = BotBlockedByUserError
+Errors.ChatMigratedError = ChatMigratedError
+Errors.InlineModeDisabledError = InlineModeDisabledError
+Errors.UserNotFoundError = UserNotFoundError
+Errors.ChatNotFoundError = ChatNotFoundError
+Errors.MessageNotFoundError = MessageNotFoundError
+Errors.ReplyMessageNotFoundError = ReplyMessageNotFoundError
+Errors.FileNotFoundError = FileNotFoundError
+Errors.StickerSetNotFoundError = StickerSetNotFoundError
+Errors.InvalidCallbackQueryError = InvalidCallbackQueryError
+Errors.InvalidInlineQueryError = InvalidInlineQueryError
+Errors.InvalidShippingQueryError = InvalidShippingQueryError
+Errors.InvalidPreCheckoutQueryError = InvalidPreCheckoutQueryError
+Errors.UnknownError = UnknownError
+
+module.exports = Errors

@@ -1,0 +1,15 @@
+export default class InlineQueryResultType {
+  static ARTICLE = 'article'
+  static PHOTO = 'photo'
+  static GIF = 'gif'
+  static MPEG4_GIF = 'mpeg4_gif'
+  static VIDEO = 'video'
+  static AUDIO = 'audio'
+  static VOICE = 'voice'
+  static DOCUMENT = 'document'
+  static LOCATION = 'location'
+  static VENUE = 'venue'
+  static CONTACT = 'contact'
+  static GAME = 'game'
+  static STICKER = 'sticker'
+}

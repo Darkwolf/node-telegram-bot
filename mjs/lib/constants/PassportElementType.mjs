@@ -1,0 +1,15 @@
+export default class PassportElementType {
+  static PERSONAL_DETAILS = 'personal_details'
+  static PASSPORT = 'passport'
+  static DRIVER_LICENSE = 'driver_license'
+  static IDENTITY_CARD = 'identity_card'
+  static INTERNAL_PASSPORT = 'internal_passport'
+  static ADDRESS = 'address'
+  static UTILITY_BILL = 'utility_bill'
+  static BANK_STATEMENT = 'bank_statement'
+  static RENTAL_AGREEMENT = 'rental_agreement'
+  static PASSPORT_REGISTRATION = 'passport_registration'
+  static TEMPORARY_REGISTRATION = 'temporary_registration'
+  static PHONE_NUMBER = 'phone_number'
+  static EMAIL = 'email'
+}
