@@ -1595,5 +1595,6 @@ TelegramBot.MaskPositionPoint = MaskPositionPoint
 TelegramBot.InlineQueryResultType = InlineQueryResultType
 TelegramBot.PassportElementType = PassportElementType
 TelegramBot.PassportElementErrorSource = PassportElementErrorSource
+TelegramBot.from = (token, settings) => new TelegramBot(token, settings)
 
 module.exports = TelegramBot

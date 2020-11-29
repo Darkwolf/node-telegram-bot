@@ -695,6 +695,10 @@ export default class TelegramBot extends EventEmitter {
   static PassportElementType = PassportElementType
   static PassportElementErrorSource = PassportElementErrorSource
 
+  static from(token, settings) {
+    return new TelegramBot(token, settings)
+  }
+
   constructor(token, settings) {
     super()
     this
