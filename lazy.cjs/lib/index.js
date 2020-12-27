@@ -637,7 +637,7 @@ class TelegramBot extends EventEmitter {
   }
 
   removeChatTitle(id) {
-    return this.setChatTitle(id, FormattedText.MAGICK_CHAR)
+    return this.setChatTitle(id, types.FormattedText.MAGICK_CHAR)
   }
 
   setChatDescription(id, description) {
@@ -773,7 +773,7 @@ class TelegramBot extends EventEmitter {
   }
 
   removeMessageText(chatId, messageId, options) {
-    return this.editMessageText(chatId, messageId, FormattedText.MAGICK_CHAR, options)
+    return this.editMessageText(chatId, messageId, types.FormattedText.MAGICK_CHAR, options)
   }
 
   editInlineMessageText(id, text, options) {
@@ -787,7 +787,7 @@ class TelegramBot extends EventEmitter {
   }
 
   removeInlineMessageText(id, options) {
-    return this.editInlineMessageText(id, FormattedText.MAGICK_CHAR, options)
+    return this.editInlineMessageText(id, types.FormattedText.MAGICK_CHAR, options)
   }
 
   editMessageCaption(chatId, messageId, caption, options) {
