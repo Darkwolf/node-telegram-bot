@@ -32,7 +32,7 @@ class ChosenInlineResult {
 
   setLocation(location) {
     this.location = location ? (
-      location instanceof location ? location : new Location(location)
+      location instanceof Location ? location : new Location(location)
     ) : undefined
     return this
   }

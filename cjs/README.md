@@ -4,6 +4,8 @@
 `npm i --save @darkwolf/telegram-bot.mjs`
 #### CommonJS (Node.js v10.x LTS or higher)
 `npm i --save @darkwolf/telegram-bot.cjs`
+#### Lazy Loading CommonJS (Node.js v10.x LTS or higher)
+`npm i --save @darkwolf/telegram-bot.lazy.cjs`
 ## Using
 ```javascript
 // ECMAScript
@@ -18,6 +20,8 @@ import TelegramBot, {
 
 // CommonJS
 const TelegramBot = require('@darkwolf/telegram-bot.cjs')
+// Lazy Loading CommonJS
+const TelegramBot = require('@darkwolf/telegram-bot.lazy.cjs')
 const {
   InputFile,
   InputMediaPhoto,
